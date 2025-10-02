@@ -3,7 +3,7 @@ name: Hello World Workflow
 on:
    push:
       branches:
-      - main
+         - main
 
 jobs:
    say-hello:
@@ -11,4 +11,4 @@ jobs:
 
     steps:
     - name: Print Hello World
-    run: echo "Hello World!"
+      run: echo "Hello World!"
